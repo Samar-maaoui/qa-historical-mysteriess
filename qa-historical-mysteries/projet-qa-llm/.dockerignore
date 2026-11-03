@@ -1,0 +1,10 @@
+.env
+venv
+.venv
+__pycache__
+*.pyc
+tests
+tests_integration
+experiments/results
+training/data/*.jsonl
+*.zip

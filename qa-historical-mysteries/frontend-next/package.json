@@ -1,0 +1,25 @@
+{
+  "name": "frontend-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node tests/lib.test.mjs && node tests/frontend.test.mjs"
+  },
+  "dependencies": {
+    "@next/third-parties": "^16.4.2",
+    "leaflet": "^1.9.4",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-leaflet": "^5.0.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0"
+  }
+}

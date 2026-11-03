@@ -1,0 +1,4 @@
+# enough to run the offline test suite: python -m unittest discover -s tests -t .
+numpy
+python-dotenv
+requests

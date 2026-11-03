@@ -1,0 +1,1274 @@
+[
+ {
+  "id": "in-01",
+  "type": "in_corpus",
+  "question": "Which pharaoh was the Great Pyramid of Giza built for?",
+  "source": "Grande Pyramide de Gizeh",
+  "keys": [
+   "Khéops",
+   "Khufu",
+   "Cheops",
+   "Kheops"
+  ],
+  "expected": "The pharaoh Khufu (Cheops).",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-02",
+  "type": "in_corpus",
+  "question": "How tall was the Great Pyramid of Giza originally, in metres?",
+  "source": "Grande Pyramide de Gizeh",
+  "keys": [
+   "146,58",
+   "146.58",
+   "146.6",
+   "147"
+  ],
+  "expected": "About 146.6 metres (146.58 m, 280 royal cubits).",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-03",
+  "type": "in_corpus",
+  "question": "In which country is Machu Picchu located?",
+  "source": "Machu Picchu",
+  "keys": [
+   "Pérou",
+   "Peru"
+  ],
+  "expected": "Peru.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-04",
+  "type": "in_corpus",
+  "question": "In which year was Machu Picchu inscribed on the UNESCO World Heritage List?",
+  "source": "Machu Picchu",
+  "keys": [
+   "1983"
+  ],
+  "expected": "1983.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-05",
+  "type": "in_corpus",
+  "question": "In which English county is Stonehenge located?",
+  "source": "Stonehenge",
+  "keys": [
+   "Wiltshire"
+  ],
+  "expected": "Wiltshire.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-06",
+  "type": "in_corpus",
+  "question": "What kind of large stones form the outer circle of Stonehenge?",
+  "source": "Stonehenge",
+  "keys": [
+   "sarsen",
+   "sarsens"
+  ],
+  "expected": "Sarsen stones.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-07",
+  "type": "in_corpus",
+  "question": "Which volcano buried the city of Pompeii?",
+  "source": "Pompéi",
+  "keys": [
+   "Vésuve",
+   "Vesuvius"
+  ],
+  "expected": "Mount Vesuvius.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-08",
+  "type": "in_corpus",
+  "question": "In which year did the eruption that destroyed Pompeii take place?",
+  "source": "Pompéi",
+  "keys": [
+   "79"
+  ],
+  "expected": "AD 79.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-09",
+  "type": "in_corpus",
+  "question": "Which writing system did the Maya use?",
+  "source": "Civilisation maya",
+  "keys": [
+   "hiéroglyph",
+   "hieroglyph",
+   "glyph"
+  ],
+  "expected": "Maya hieroglyphs (glyphs).",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-10",
+  "type": "in_corpus",
+  "question": "On which island did the Minoan civilization develop?",
+  "source": "Civilisation minoenne",
+  "keys": [
+   "Crète",
+   "Crete"
+  ],
+  "expected": "Crete.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-11",
+  "type": "in_corpus",
+  "question": "What are the giant statues of Easter Island called?",
+  "source": "Île de Pâques",
+  "keys": [
+   "moai",
+   "moaï"
+  ],
+  "expected": "Moai.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-12",
+  "type": "in_corpus",
+  "question": "Which country does Easter Island belong to?",
+  "source": "Île de Pâques",
+  "keys": [
+   "Chili",
+   "Chile"
+  ],
+  "expected": "Chile.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-13",
+  "type": "in_corpus",
+  "question": "Which people built the city of Petra?",
+  "source": "Pétra",
+  "keys": [
+   "Nabatéen",
+   "Nabataean",
+   "Nabatean"
+  ],
+  "expected": "The Nabataeans.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-14",
+  "type": "in_corpus",
+  "question": "In which country is Petra located?",
+  "source": "Pétra",
+  "keys": [
+   "Jordanie",
+   "Jordan"
+  ],
+  "expected": "Jordan.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-15",
+  "type": "in_corpus",
+  "question": "Which king built Angkor Wat?",
+  "source": "Angkor Vat",
+  "keys": [
+   "Suryavarman"
+  ],
+  "expected": "King Suryavarman II.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-16",
+  "type": "in_corpus",
+  "question": "In which country is Angkor Wat located?",
+  "source": "Angkor Vat",
+  "keys": [
+   "Cambodge",
+   "Cambodia"
+  ],
+  "expected": "Cambodia.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-17",
+  "type": "in_corpus",
+  "question": "Which ancient philosopher described Atlantis?",
+  "source": "Atlantide",
+  "keys": [
+   "Platon",
+   "Plato"
+  ],
+  "expected": "Plato.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-18",
+  "type": "in_corpus",
+  "question": "In which island group or country is Nan Madol?",
+  "source": "Nan Madol",
+  "keys": [
+   "Micronésie",
+   "Micronesia",
+   "Pohnpei"
+  ],
+  "expected": "Pohnpei, in Micronesia.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-19",
+  "type": "in_corpus",
+  "question": "In which modern country is Göbekli Tepe?",
+  "source": "Göbekli Tepe",
+  "keys": [
+   "Turquie",
+   "Turkey"
+  ],
+  "expected": "Turkey.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-20",
+  "type": "in_corpus",
+  "question": "Roughly in which millennium BC was Göbekli Tepe built?",
+  "source": "Göbekli Tepe",
+  "keys": [
+   "Xe millénaire",
+   "10th millennium",
+   "tenth millennium",
+   "10e millénaire"
+  ],
+  "expected": "The 10th millennium BC.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-21",
+  "type": "in_corpus",
+  "question": "In which country did the Olmecs live?",
+  "source": "Olmèques",
+  "keys": [
+   "Mexique",
+   "Mexico"
+  ],
+  "expected": "Mexico.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-22",
+  "type": "in_corpus",
+  "question": "What kind of famous monuments did the Olmecs carve?",
+  "source": "Olmèques",
+  "keys": [
+   "tête colossale",
+   "têtes colossales",
+   "colossal head",
+   "colossal heads"
+  ],
+  "expected": "Colossal heads.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-23",
+  "type": "in_corpus",
+  "question": "What are the two largest pyramids of Teotihuacan dedicated to?",
+  "source": "Teotihuacan",
+  "keys": [
+   "Soleil",
+   "Sun",
+   "Lune",
+   "Moon"
+  ],
+  "expected": "The Sun and the Moon.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-24",
+  "type": "in_corpus",
+  "question": "Which god did the Colossus of Rhodes represent?",
+  "source": "Colosse de Rhodes",
+  "keys": [
+   "Hélios",
+   "Helios"
+  ],
+  "expected": "Helios.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-25",
+  "type": "in_corpus",
+  "question": "Which people founded Carthage?",
+  "source": "Carthage",
+  "keys": [
+   "Phénicien",
+   "Phoenician",
+   "Tyr"
+  ],
+  "expected": "The Phoenicians (from Tyre).",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-26",
+  "type": "in_corpus",
+  "question": "In which year was Carthage destroyed by Rome?",
+  "source": "Carthage",
+  "keys": [
+   "146"
+  ],
+  "expected": "146 BC.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-27",
+  "type": "in_corpus",
+  "question": "How many Punic Wars were there?",
+  "source": "Guerres puniques",
+  "keys": [
+   "trois",
+   "three"
+  ],
+  "expected": "Three.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-28",
+  "type": "in_corpus",
+  "question": "In which year was Hannibal born?",
+  "source": "Hannibal Barca",
+  "keys": [
+   "247"
+  ],
+  "expected": "247 BC.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-29",
+  "type": "in_corpus",
+  "question": "Which mountain range did Hannibal cross with his army?",
+  "source": "Hannibal Barca",
+  "keys": [
+   "Alpes",
+   "Alps"
+  ],
+  "expected": "The Alps.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-30",
+  "type": "in_corpus",
+  "question": "Which civilization built most of the monuments visible at Dougga?",
+  "source": "Dougga",
+  "keys": [
+   "romain",
+   "Roman"
+  ],
+  "expected": "The Romans.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-31",
+  "type": "in_corpus",
+  "question": "What famous monument stands in El Jem?",
+  "source": "El Jem",
+  "keys": [
+   "amphithéâtre",
+   "amphitheatre",
+   "amphitheater"
+  ],
+  "expected": "A Roman amphitheatre.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-32",
+  "type": "in_corpus",
+  "question": "Which people founded Utica?",
+  "source": "Utique",
+  "keys": [
+   "Phénicien",
+   "Phoenician",
+   "Tyr"
+  ],
+  "expected": "The Phoenicians (from Tyre).",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-33",
+  "type": "in_corpus",
+  "question": "Which civilization is the site of Kerkouane associated with?",
+  "source": "Kerkouane",
+  "keys": [
+   "punique",
+   "Punic",
+   "carthagin"
+  ],
+  "expected": "The Punic (Carthaginian) civilization.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-34",
+  "type": "in_corpus",
+  "question": "Who founded the city of Kairouan?",
+  "source": "Kairouan",
+  "keys": [
+   "Oqba",
+   "Uqba",
+   "Okba"
+  ],
+  "expected": "Oqba ibn Nafi.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-35",
+  "type": "in_corpus",
+  "question": "After whom is the Great Mosque of Kairouan also named?",
+  "source": "Grande Mosquée de Kairouan",
+  "keys": [
+   "Oqba",
+   "Uqba",
+   "Okba"
+  ],
+  "expected": "Oqba ibn Nafi (the Mosque of Uqba).",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-36",
+  "type": "in_corpus",
+  "question": "Which city was the capital of the Hafsid dynasty?",
+  "source": "Dynastie hafside",
+  "keys": [
+   "Tunis"
+  ],
+  "expected": "Tunis.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-37",
+  "type": "in_corpus",
+  "question": "Which modern country corresponds to the core of Ifriqiya?",
+  "source": "Ifriqiya",
+  "keys": [
+   "Tunisie",
+   "Tunisia"
+  ],
+  "expected": "Tunisia.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-38",
+  "type": "in_corpus",
+  "question": "In which year did the French protectorate of Tunisia begin?",
+  "source": "Protectorat français de Tunisie",
+  "keys": [
+   "1881"
+  ],
+  "expected": "1881.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-39",
+  "type": "in_corpus",
+  "question": "What office did Habib Bourguiba hold after Tunisia became a republic?",
+  "source": "Habib Bourguiba",
+  "keys": [
+   "président",
+   "president"
+  ],
+  "expected": "President of the Republic.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-40",
+  "type": "in_corpus",
+  "question": "Which party led the Tunisian national movement from 1934?",
+  "source": "Mouvement national tunisien",
+  "keys": [
+   "Néo-Destour",
+   "Neo-Destour",
+   "Neo Destour",
+   "Destour"
+  ],
+  "expected": "The Neo-Destour party.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-41",
+  "type": "in_corpus",
+  "question": "In which year did Tunisia gain independence?",
+  "source": "Indépendance de la Tunisie",
+  "keys": [
+   "1956"
+  ],
+  "expected": "1956.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "in-42",
+  "type": "in_corpus",
+  "question": "In which year did the Tunisian revolution begin?",
+  "source": "Révolution tunisienne",
+  "keys": [
+   "2010"
+  ],
+  "expected": "2010.",
+  "category": "factual",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "in-43",
+  "type": "in_corpus",
+  "question": "Which Tunisian president left power after the revolution?",
+  "source": "Révolution tunisienne",
+  "keys": [
+   "Ben Ali"
+  ],
+  "expected": "Zine El Abidine Ben Ali.",
+  "category": "factual",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "out-01",
+  "type": "out_of_corpus",
+  "question": "What caused the French Revolution?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "out-02",
+  "type": "out_of_corpus",
+  "question": "Who was Louis XIV?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "out-03",
+  "type": "out_of_corpus",
+  "question": "What was the Silk Road?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "out-04",
+  "type": "out_of_corpus",
+  "question": "Who built the Great Wall of China?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": true,
+  "lang": "en"
+ },
+ {
+  "id": "out-05",
+  "type": "out_of_corpus",
+  "question": "Who painted the Mona Lisa?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-06",
+  "type": "out_of_corpus",
+  "question": "What did Albert Einstein discover?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-07",
+  "type": "out_of_corpus",
+  "question": "Who wrote Hamlet?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-08",
+  "type": "out_of_corpus",
+  "question": "Who was Leonardo da Vinci?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-09",
+  "type": "out_of_corpus",
+  "question": "What is the tallest mountain in the world?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-10",
+  "type": "out_of_corpus",
+  "question": "What is the capital of Italy?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-11",
+  "type": "out_of_corpus",
+  "question": "What is the boiling point of water?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-12",
+  "type": "out_of_corpus",
+  "question": "How do I bake a chocolate cake?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-13",
+  "type": "out_of_corpus",
+  "question": "What is the best programming language?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "id": "out-14",
+  "type": "out_of_corpus",
+  "question": "What is the price of Bitcoin today?",
+  "source": null,
+  "keys": [],
+  "expected": "The corpus does not contain this: the assistant should say it does not know.",
+  "category": "out_of_corpus",
+  "core": false,
+  "lang": "en"
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "Pour quel pharaon la Grande Pyramide de Gizeh a-t-elle été construite ?",
+  "source": "Grande Pyramide de Gizeh",
+  "keys": [
+   "Khéops",
+   "Khufu",
+   "Cheops",
+   "Kheops"
+  ],
+  "expected": "The pharaoh Khufu (Cheops).",
+  "id": "fre-01",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "Dans quel pays se trouve le Machu Picchu ?",
+  "source": "Machu Picchu",
+  "keys": [
+   "Pérou",
+   "Peru"
+  ],
+  "expected": "Peru.",
+  "id": "fre-02",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "Quel volcan a enseveli la ville de Pompéi ?",
+  "source": "Pompéi",
+  "keys": [
+   "Vésuve",
+   "Vesuvius"
+  ],
+  "expected": "Mount Vesuvius.",
+  "id": "fre-03",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "Qui a fondé la ville de Kairouan ?",
+  "source": "Kairouan",
+  "keys": [
+   "Oqba",
+   "Uqba",
+   "Okba"
+  ],
+  "expected": "Oqba ibn Nafi.",
+  "id": "fre-04",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "En quelle année Carthage a-t-elle été détruite par Rome ?",
+  "source": "Carthage",
+  "keys": [
+   "146"
+  ],
+  "expected": "146 BC.",
+  "id": "fre-05",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "Quel peuple a construit la ville de Pétra ?",
+  "source": "Pétra",
+  "keys": [
+   "Nabatéen",
+   "Nabataean",
+   "Nabatean"
+  ],
+  "expected": "The Nabataeans.",
+  "id": "fre-06",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "Quel roi a fait construire Angkor Vat ?",
+  "source": "Angkor Vat",
+  "keys": [
+   "Suryavarman"
+  ],
+  "expected": "King Suryavarman II.",
+  "id": "fre-07",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "Quel philosophe de l'Antiquité a décrit l'Atlantide ?",
+  "source": "Atlantide",
+  "keys": [
+   "Platon",
+   "Plato"
+  ],
+  "expected": "Plato.",
+  "id": "fre-08",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "En quelle année la Tunisie a-t-elle obtenu son indépendance ?",
+  "source": "Indépendance de la Tunisie",
+  "keys": [
+   "1956"
+  ],
+  "expected": "1956.",
+  "id": "fre-09",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "french",
+  "lang": "fr",
+  "question": "En quelle année est né Hannibal ?",
+  "source": "Hannibal Barca",
+  "keys": [
+   "247"
+  ],
+  "expected": "247 BC.",
+  "id": "fre-10",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "arabic",
+  "lang": "ar",
+  "question": "في أي بلد يقع أنغكور وات؟",
+  "source": "Angkor Vat",
+  "keys": [
+   "Cambodge",
+   "Cambodia"
+  ],
+  "expected": "Cambodia.",
+  "id": "ara-11",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "arabic",
+  "lang": "ar",
+  "question": "من الذي أسس مدينة القيروان؟",
+  "source": "Kairouan",
+  "keys": [
+   "Oqba",
+   "Uqba",
+   "Okba"
+  ],
+  "expected": "Oqba ibn Nafi.",
+  "id": "ara-12",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "arabic",
+  "lang": "ar",
+  "question": "في أي سنة حصلت تونس على استقلالها؟",
+  "source": "Indépendance de la Tunisie",
+  "keys": [
+   "1956"
+  ],
+  "expected": "1956.",
+  "id": "ara-13",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "arabic",
+  "lang": "ar",
+  "question": "ما هو البركان الذي دفن مدينة بومبي؟",
+  "source": "Pompéi",
+  "keys": [
+   "Vésuve",
+   "Vesuvius"
+  ],
+  "expected": "Mount Vesuvius.",
+  "id": "ara-14",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "arabic",
+  "lang": "ar",
+  "question": "في أي بلد توجد مدينة البتراء؟",
+  "source": "Pétra",
+  "keys": [
+   "Jordanie",
+   "Jordan"
+  ],
+  "expected": "Jordan.",
+  "id": "ara-15",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "followup",
+  "lang": "en",
+  "question": "In which year was he born?",
+  "source": "Hannibal Barca",
+  "keys": [
+   "247"
+  ],
+  "expected": "247 BC.",
+  "history": [
+   {
+    "question": "Who was Hannibal Barca?",
+    "reponse": "Hannibal Barca was a Carthaginian general."
+   }
+  ],
+  "id": "fol-16",
+  "core": true
+ },
+ {
+  "type": "in_corpus",
+  "category": "followup",
+  "lang": "en",
+  "question": "Which country is it in?",
+  "source": "Machu Picchu",
+  "keys": [
+   "Pérou",
+   "Peru"
+  ],
+  "expected": "Peru.",
+  "history": [
+   {
+    "question": "What is Machu Picchu?",
+    "reponse": "Machu Picchu is a 15th-century Inca citadel."
+   }
+  ],
+  "id": "fol-17",
+  "core": true
+ },
+ {
+  "type": "in_corpus",
+  "category": "followup",
+  "lang": "en",
+  "question": "Which volcano destroyed it?",
+  "source": "Pompéi",
+  "keys": [
+   "Vésuve",
+   "Vesuvius"
+  ],
+  "expected": "Mount Vesuvius.",
+  "history": [
+   {
+    "question": "Tell me about Pompeii.",
+    "reponse": "Pompeii was a Roman city buried by a volcanic eruption."
+   }
+  ],
+  "id": "fol-18",
+  "core": true
+ },
+ {
+  "type": "in_corpus",
+  "category": "followup",
+  "lang": "en",
+  "question": "What office did he hold after the republic was proclaimed?",
+  "source": "Habib Bourguiba",
+  "keys": [
+   "président",
+   "president"
+  ],
+  "expected": "President of the Republic.",
+  "history": [
+   {
+    "question": "Who was Habib Bourguiba?",
+    "reponse": "Habib Bourguiba led the Tunisian independence movement."
+   }
+  ],
+  "id": "fol-19",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "followup",
+  "lang": "en",
+  "question": "Which empire built it?",
+  "source": "El Jem",
+  "keys": [
+   "amphithéâtre",
+   "amphitheatre",
+   "amphitheater",
+   "romain",
+   "Roman"
+  ],
+  "expected": "The Romans (a Roman amphitheatre).",
+  "history": [
+   {
+    "question": "What is El Jem known for?",
+    "reponse": "El Jem is a town in Tunisia with a famous ancient monument."
+   }
+  ],
+  "id": "fol-20",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "followup",
+  "lang": "en",
+  "question": "Which people built it?",
+  "source": "Pétra",
+  "keys": [
+   "Nabatéen",
+   "Nabataean",
+   "Nabatean"
+  ],
+  "expected": "The Nabataeans.",
+  "history": [
+   {
+    "question": "What is Petra?",
+    "reponse": "Petra is an ancient rock-cut city."
+   }
+  ],
+  "id": "fol-21",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "followup",
+  "lang": "en",
+  "question": "Who founded the city?",
+  "source": "Kairouan",
+  "keys": [
+   "Oqba",
+   "Uqba",
+   "Okba"
+  ],
+  "expected": "Oqba ibn Nafi.",
+  "history": [
+   {
+    "question": "Tell me about Kairouan.",
+    "reponse": "Kairouan is a holy city of Tunisia."
+   }
+  ],
+  "id": "fol-22",
+  "core": false
+ },
+ {
+  "type": "in_corpus",
+  "category": "followup",
+  "lang": "en",
+  "question": "Which king built it?",
+  "source": "Angkor Vat",
+  "keys": [
+   "Suryavarman"
+  ],
+  "expected": "King Suryavarman II.",
+  "history": [
+   {
+    "question": "Tell me about Angkor Wat.",
+    "reponse": "Angkor Wat is a vast temple complex."
+   }
+  ],
+  "id": "fol-23",
+  "core": false
+ },
+ {
+  "type": "false_premise",
+  "category": "false_premise",
+  "lang": "en",
+  "question": "When did Hannibal conquer Rome?",
+  "source": null,
+  "keys": [
+   "never",
+   "not",
+   "did not",
+   "didn't",
+   "no evidence",
+   "failed"
+  ],
+  "expected": "He never captured Rome.",
+  "id": "fal-24",
+  "core": true
+ },
+ {
+  "type": "false_premise",
+  "category": "false_premise",
+  "lang": "en",
+  "question": "Which Egyptian pharaoh built Machu Picchu?",
+  "source": null,
+  "keys": [
+   "inca",
+   "not",
+   "never",
+   "peru"
+  ],
+  "expected": "Machu Picchu is Inca, not Egyptian.",
+  "id": "fal-25",
+  "core": true
+ },
+ {
+  "type": "false_premise",
+  "category": "false_premise",
+  "lang": "en",
+  "question": "In which year did the volcano Etna destroy Pompeii?",
+  "source": null,
+  "keys": [
+   "vesuvius",
+   "vésuve",
+   "not",
+   "never"
+  ],
+  "expected": "It was Vesuvius, not Etna.",
+  "id": "fal-26",
+  "core": true
+ },
+ {
+  "type": "false_premise",
+  "category": "false_premise",
+  "lang": "en",
+  "question": "Why was the Great Pyramid of Giza built in Peru?",
+  "source": null,
+  "keys": [
+   "egypt",
+   "égypte",
+   "not",
+   "never"
+  ],
+  "expected": "It is in Egypt, not Peru.",
+  "id": "fal-27",
+  "core": false
+ },
+ {
+  "type": "false_premise",
+  "category": "false_premise",
+  "lang": "en",
+  "question": "Why did Tunisia gain independence from France in 1881?",
+  "source": null,
+  "keys": [
+   "1956",
+   "1881",
+   "protectorate",
+   "protectorat",
+   "not"
+  ],
+  "expected": "Tunisia became a protectorate in 1881 and independent in 1956.",
+  "id": "fal-28",
+  "core": false
+ },
+ {
+  "type": "false_premise",
+  "category": "false_premise",
+  "lang": "en",
+  "question": "Who was the first president of Tunisia, Hannibal Barca?",
+  "source": null,
+  "keys": [
+   "bourguiba",
+   "not",
+   "never"
+  ],
+  "expected": "Habib Bourguiba, not Hannibal.",
+  "id": "fal-29",
+  "core": false
+ },
+ {
+  "type": "false_premise",
+  "category": "false_premise",
+  "lang": "en",
+  "question": "Why did Carthage win the Third Punic War?",
+  "source": null,
+  "keys": [
+   "destroyed",
+   "lost",
+   "did not win",
+   "defeat",
+   "rome won",
+   "not"
+  ],
+  "expected": "Carthage lost and was destroyed.",
+  "id": "fal-30",
+  "core": false
+ },
+ {
+  "type": "false_premise",
+  "category": "false_premise",
+  "lang": "en",
+  "question": "What did the Maya build on Easter Island?",
+  "source": null,
+  "keys": [
+   "rapa nui",
+   "polynesian",
+   "moai",
+   "not",
+   "never"
+  ],
+  "expected": "The moai were made by the Rapa Nui, not the Maya.",
+  "id": "fal-31",
+  "core": false
+ }
+]

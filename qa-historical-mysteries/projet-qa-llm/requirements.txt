@@ -1,0 +1,22 @@
+# API
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+mysql-connector-python
+# retrieval and models
+numpy
+faiss-cpu
+sentence-transformers
+groq
+# features
+requests
+edge-tts
+deep-translator
+# corpus pipeline (collect, chunk)
+wikipedia-api
+langchain-text-splitters
+
+# optional, only for training/ (a GPU such as Google Colab helps for the fine-tuning steps):
+#   torch  datasets  accelerate  peft  transformers
+# optional, only for tests_integration/:  httpx

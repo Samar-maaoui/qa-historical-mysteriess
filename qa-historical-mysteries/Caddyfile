@@ -1,0 +1,6 @@
+# Automatic HTTPS for {$DOMAIN}. flush_interval -1 keeps the answers streaming word by word.
+{$DOMAIN:localhost} {
+	reverse_proxy web:3000 {
+		flush_interval -1
+	}
+}

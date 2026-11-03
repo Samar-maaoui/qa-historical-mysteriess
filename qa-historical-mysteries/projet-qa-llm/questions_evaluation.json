@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Quelle était la hauteur originale de la grande pyramide de Gizeh et quelle est sa hauteur actuelle après l’érosion?",
+    "reponse_attendue": "La pyramide mesurait initialement 146,58 m; l’érosion l’a réduite d’environ 9,58 m pour atteindre 137 m aujourd’hui.",
+    "source": "Grande Pyramide de Gizeh"
+  },
+  {
+    "question": "Combien de blocs de pierres compose la grande pyramide selon les estimations égyptologiques?",
+    "reponse_attendue": "Les estimations varient entre 600 000 et 4 000 000 de blocs, avec une valeur traditionnelle de 2,3 millions.",
+    "source": "Grande Pyramide de Gizeh"
+  },
+  {
+    "question": "Quel est le nom quechua local de Machu Picchu et que signifie-t-il ?",
+    "reponse_attendue": "Machu Pikchu, qui signifie littéralement « vieille montagne » ou « vieux sommet ».",
+    "source": "Machu Picchu"
+  },
+  {
+    "question": "En quelle année Machu Picchu a-t-il été inscrit sur la liste du patrimoine mondial de l’UNESCO ?",
+    "reponse_attendue": "1983.",
+    "source": "Machu Picchu"
+  },
+  {
+    "question": "Quel volcan a enseveli la ville de Pompéi en 79 av. J.-C.?",
+    "reponse_attendue": "Le Vésuve, situé à 9 km au nord‑ouest de la ville.",
+    "source": "Pompéi"
+  },
+  {
+    "question": "Qui a fondé la colonie romaine à Pompéi après la prise de la ville par les Samnites ?",
+    "reponse_attendue": "Le général romain Lucius Cornelius Sylla, qui y installa près de 2 000 vétérans.",
+    "source": "Pompéi"
+  },
+  {
+    "question": "Quel territoire la civilisation maya occupait‑elle à l'époque précolombienne ?",
+    "reponse_attendue": "Un territoire centré sur la péninsule du Yucatán, couvrant le sud du Mexique, le Belize, le Guatemala, le Honduras et le Salvador.",
+    "source": "Civilisation maya"
+  },
+  {
+    "question": "Combien de codex maya ont survécu après la destruction espagnole ?",
+    "reponse_attendue": "Quatre codex.",
+    "source": "Civilisation maya"
+  },
+  {
+    "question": "Quelle période couvre le développement de la civilisation minoenne ?",
+    "reponse_attendue": "De 2700 à 1200 av. J.-C.",
+    "source": "Civilisation minoenne"
+  },
+  {
+    "question": "Quel archéologue a découvert la civilisation minoenne au début du XXe siècle ?",
+    "reponse_attendue": "Arthur John Evans",
+    "source": "Civilisation minoenne"
+  },
+  {
+    "question": "Combien de statues de basalte, les moaï, composent le patrimoine archéologique de l'île de Pâques ?",
+    "reponse_attendue": "1 042 statues de basalte.",
+    "source": "Île de Pâques"
+  },
+  {
+    "question": "Quel nom a donné Jakob Roggeveen à l'île lors de son accostage le 5 avril 1722 ?",
+    "reponse_attendue": "Paaseiland.",
+    "source": "Île de Pâques"
+  },
+  {
+    "question": "En quelle année l'explorateur suisse Jean Louis Burckhardt a-t-il redécouvert la ville de Pétra ?",
+    "reponse_attendue": "La découverte a eu lieu en 1812.",
+    "source": "Pétra"
+  },
+  {
+    "question": "À quelle altitude se situe la cité de Pétra en Jordanie ?",
+    "reponse_attendue": "Elle se trouve entre 800 et 1 396 mètres d'altitude.",
+    "source": "Pétra"
+  },
+  {
+    "question": "Quel est la superficie du site d'Angkor Vat ?",
+    "reponse_attendue": "162,6 hectares.",
+    "source": "Angkor Vat"
+  },
+  {
+    "question": "Qui a construit Angkor Vat au début du XIIe siècle ?",
+    "reponse_attendue": "Le roi khmer Suryavarman II.",
+    "source": "Angkor Vat"
+  },
+  {
+    "question": "En quelle année Nan Madol a-t-il été inscrit au patrimoine mondial de l'UNESCO ?",
+    "reponse_attendue": "Nan Madol a été inscrit au patrimoine mondial de l'UNESCO en 1976.",
+    "source": "Nan Madol"
+  },
+  {
+    "question": "Combien de plateformes ont été aménagées à Nan Madol ?",
+    "reponse_attendue": "Il y a plus de 100 plateformes aménagées à Nan Madol.",
+    "source": "Nan Madol"
+  },
+  {
+    "question": "Pendant quelles périodes du Xe millénaire av. J.-C. Göbekli Tepe a-t-il été occupé ?",
+    "reponse_attendue": "Entre environ 9300 et 7500 av. J.-C.",
+    "source": "Göbekli Tepe"
+  },
+  {
+    "question": "Quelle forme caractéristique ont les bâtiments les plus anciens du site ?",
+    "reponse_attendue": "Des bâtiments circulaires, appelés « bâtiments spéciaux ».",
+    "source": "Göbekli Tepe"
+  },
+  {
+    "question": "En quelle année le terme « olmèque » a-t-il été officialisé?",
+    "reponse_attendue": "Le terme a été officialisé en 1942.",
+    "source": "Olmèques"
+  },
+  {
+    "question": "Qui a découvert la première tête colossale olmèque en 1862?",
+    "reponse_attendue": "La première tête colossale a été découverte par José María Melgar y Serrano.",
+    "source": "Olmèques"
+  },
+  {
+    "question": "En quelle année a été inscrit Teotihuacan au patrimoine mondial de l'UNESCO ?",
+    "reponse_attendue": "1987.",
+    "source": "Teotihuacan"
+  },
+  {
+    "question": "Quelle est la superficie totale du site de Teotihuacan ?",
+    "reponse_attendue": "82,66 km².",
+    "source": "Teotihuacan"
+  },
+  {
+    "question": "Quelle était la hauteur approximative du Colosse de Rhodes en mètres ?",
+    "reponse_attendue": "Environ 32 mètres.",
+    "source": "Colosse de Rhodes"
+  },
+  {
+    "question": "En quelle année a-t-il été renversé par un tremblement de terre ?",
+    "reponse_attendue": "226 av. J.-C.",
+    "source": "Colosse de Rhodes"
+  }
+]

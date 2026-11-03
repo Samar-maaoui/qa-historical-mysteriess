@@ -1,0 +1,17 @@
+name: frontend checks
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend-next
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm install --no-save typescript   # used by the render tests to transpile the JSX
+      - run: npm run lint
+      - run: npm test

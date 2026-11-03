@@ -1,0 +1,16 @@
+name: backend tests
+on: [push, pull_request]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projet-qa-llm
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # the tests replace MySQL, FAISS, the models and the LLM with offline stand-ins
+      - run: pip install -r requirements-test.txt
+      - run: python -m unittest discover -s tests -t . -v

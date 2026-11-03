@@ -1,0 +1,13 @@
+.env
+.env.local
+node_modules/
+.next/
+.test-build/
+venv/
+.venv/
+__pycache__/
+*.pyc
+experiments/results/
+training/data/*.jsonl
+models/*
+!models/intent.json

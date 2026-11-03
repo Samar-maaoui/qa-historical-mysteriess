@@ -1,0 +1,85 @@
+# One command for everything:   docker compose up --build
+# Open http://localhost:3000.  HTTPS with your own domain:  DOMAIN=example.org docker compose --profile prod up -d
+# (written and checked for syntax, but NOT built on the machine that produced it: read the notes in GUIDE_DEMARRAGE.md)
+name: qa-historical-mysteries
+
+x-api-env: &api-env
+  DB_HOST: db
+  DB_USER: root
+  DB_PASSWORD: ${DB_PASSWORD:-change-me}
+  DB_NAME: llm
+  FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3000}
+  COOKIE_SECURE: ${COOKIE_SECURE:-0}
+  LOG_FORMAT: json
+
+services:
+  db:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-change-me}
+      MYSQL_DATABASE: llm
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+
+  init:            # creates the tables and loads the corpus the first time, then exits
+    build: ./projet-qa-llm
+    command: python docker/init_all.py
+    environment: *api-env
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: "no"
+
+  api:
+    build: ./projet-qa-llm
+    restart: unless-stopped
+    env_file:
+      - path: ./projet-qa-llm/.env       # your keys (GROQ_API_KEY, SMTP_*, SESSION_SECRET, ADMIN_EMAILS...)
+        required: false
+    environment: *api-env
+    volumes:
+      - hf_cache:/cache/huggingface      # downloaded models, kept between restarts
+      - ./projet-qa-llm/models:/app/models   # trained models (confidence, intent...) are read from here
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      init:
+        condition: service_completed_successfully
+
+  web:
+    build:
+      context: ./frontend-next
+      args:
+        API_URL: http://api:8000
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+  caddy:           # optional HTTPS reverse proxy (profile "prod")
+    image: caddy:2
+    profiles: ["prod"]
+    restart: unless-stopped
+    environment:
+      DOMAIN: ${DOMAIN:-localhost}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+    depends_on:
+      - web
+
+volumes:
+  db_data:
+  hf_cache:
+  caddy_data:
